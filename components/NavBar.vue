@@ -15,7 +15,8 @@
 nav {
   background-color: #46B5EF;
   width: 100%;
-  padding: 10px 0;
+  padding-top: 10px; 
+  padding-bottom: 10px;
 }
 
 ul {
@@ -38,12 +39,5 @@ li {
 
 .nav-links:hover {
   color: grey;
-}
-
-@media screen and (max-width: 600px) {
-  li {
-    display: block;
-    margin: 10px 0;
-  }
 }
 </style>
