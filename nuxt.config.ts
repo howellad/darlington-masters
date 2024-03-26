@@ -2,7 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: [
-    '@fortawesome/fontawesome-free/css/all.css',
-    '@/assets/main.css'
+    '@fortawesome/fontawesome-free/css/all.css'
+  ],
+  modules: [
+    '@nuxtjs/tailwindcss'
   ]
 })
