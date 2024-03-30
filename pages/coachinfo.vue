@@ -1,6 +1,10 @@
 <template>
-    <div class="coaches-container">
-        <h1>Iain</h1>
-        <h1>Glen</h1>
+    <div class="grid grid-cols-2 gap-2 justify-center">
+            <Card 
+            title="Iain" 
+            bio="dslafdaslkfjsdklfkjdfsdskfjlsdhkfsdjklhsdjlkfasdhjklfahsj"/>
+            <Card 
+            title="Glen " 
+            bio="fdskjdfskjsdfaj;klfjlaksdflkasdjfsdalkfjsdalkfjasdlk;fjsadlk"/>
     </div>
 </template>
