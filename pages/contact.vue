@@ -3,16 +3,15 @@
       <h1>Contact Us</h1>
       <p>Feel free to reach out to us through the following channels:</p>
       <ul>
-        <li><strong>Email:</strong> example@example.com</li>
-        <li><strong>Phone:</strong> +1234567890</li>
+        <li><strong>Email:</strong> ddmasc@gmail.com</li>
       </ul>
       <div class="social-links">
         <h2>Follow us on social media:</h2>
         <div>
-        <a href="https://www.facebook.com/example" target="_blank">
+        <a href="https://www.facebook.com/groups/1674660229229616/" target="_blank">
           <i class="fab fa-facebook-square fa-2xl"></i> 
         </a>
-        <a href="https://www.instagram.com/example" target="_blank">
+        <a href="https://www.instagram.com/darlington_dolphin_masters_asc" target="_blank">
           <i class="fab fa-instagram-square fa-2xl"></i> 
         </a>
       </div>

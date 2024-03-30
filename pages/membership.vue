@@ -1,5 +1,5 @@
 <template>
-    <div class="flex mb-4 justify-center -px-3 flex-wrap">
+    <div class="flex mb-4 justify-center px-4 flex-wrap">
         <Card class="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 h-100" title="Joining us" bio="Members must pay for a swim at the Dolphin Centre reception as normal for each session. NOTE: Until further
             notice,this must be done in advance. Current swim prices can be found here.
 
