@@ -7,5 +7,8 @@ export default defineNuxtConfig({
   ],
   modules: [
     '@nuxtjs/tailwindcss'
-  ]
+  ],
+  router: {
+    base: '/darlington-masters/'
+  }
 })
