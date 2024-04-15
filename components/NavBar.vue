@@ -1,34 +1,39 @@
 <template>
-    <div class="bg-blue">
-      <nav class="flex items-center justify-center flex-wrap bg-teal-500 p-6">
-        <div class="block lg:hidden">
-          <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-              <title>Menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-          </button>
-        </div>
-        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto justify-center">
-          <div class="text-md lg:flex-grow">
-            <a href="/" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-              Home
-            </a>
-            <a href="/aboutus" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-              About
-            </a>
-            <a href="/coachinfo" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-              Coaching
-            </a>
-            <a href="/membership" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-              Membership
-            </a>
-            <a href="/contact" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-              Contact
-            </a>
-          </div>
-        </div>
-      </nav>
+  <header class="bg-teal-500 sm:flex sm:justify-center sm:items-center sm:px-4 sm:py-3">
+    <div class="flex items-center justify-between px-4 py-3 sm:p-0">
+      <div class="sm:hidden">
+        <button @click="isOpen = !isOpen" type="button"
+          class="block text-gray-900 hover:text-white focus:text-white focus:outline-none">
+          <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+            <path v-if="isOpen" fill-rule="evenodd"
+              d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
+            <path v-if="!isOpen" fill-rule="evenodd"
+              d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" />
+          </svg>
+        </button>
+      </div>
     </div>
-  </template>
-  
+    <nav :class="isOpen ? 'block' : 'hidden justify-between'" class="px-2 pt-2 pb-4 sm:flex sm:p-0">
+      <a href="/aboutus"
+        class="block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-500 sm:mt-0 sm:ml-2">About Us</a>
+      <a href="/coachinfo" 
+        class="mt-1 block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-500 sm:mt-0 sm:ml-2">Coaching</a>
+      <a href="/training"
+        class="mt-1 block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-500 sm:mt-0 sm:ml-2">Training</a>
+      <a href="/membership"
+        class="mt-1 block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-500 sm:mt-0 sm:ml-2">Membership</a>
+      <a href="/contact"
+        class="mt-1 block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-500 sm:mt-0 sm:ml-2">Contact</a>
+    </nav>
+  </header>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      isOpen: false,
+    }
+  },
+}
+</script>

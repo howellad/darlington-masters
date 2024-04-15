@@ -1,10 +1,8 @@
 <template>
-    <div class="flex flex-wrap" >
-        <div class="w-1/4">
-            <img class="m-5" src='@/assets/badge2.png' />
-        </div>
-        <div class="w-3/4 text-3xl p-6">
+    <a class="flex sm:justify-center sm:items-center sm:px-4 sm:py-3" href="/">
+        <img class="m-4 object-none" src='@/assets/badge2.png' />
+        <div class="text-3xl p-6 font-semibold">
             Darlington Dolphin Masters ASC
         </div>
-    </div>
+    </a>
 </template>
