@@ -3,7 +3,7 @@
     <div class="font-bold text-xl mb-2">Contact Us</div>
     <p>Feel free to reach out to us through the following channels:</p>
     <ul>
-      <li><strong>Email:</strong> ddmasc@gmail.com</li>
+      <li><strong>Email:</strong> ddmasc.secretary@gmail.com</li>
     </ul>
     <div class="social-links">
       <h2>Follow us on social media:</h2>

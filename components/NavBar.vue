@@ -3,7 +3,7 @@
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       <div class="sm:hidden">
         <button @click="isOpen = !isOpen" type="button"
-          class="block text-gray-900 hover:text-white focus:text-white focus:outline-none">
+          class="block text-gray-900 hover:text-gray-300 focus:text-gray focus:outline-none">
           <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
             <path v-if="isOpen" fill-rule="evenodd"
               d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
@@ -15,15 +15,15 @@
     </div>
     <nav :class="isOpen ? 'block' : 'hidden justify-between'" class="px-2 pt-2 pb-4 sm:flex sm:p-0">
       <a href="/aboutus"
-        class="block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-500 sm:mt-0 sm:ml-2">About Us</a>
+        class="block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">About Us</a>
       <a href="/coachinfo" 
-        class="mt-1 block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-500 sm:mt-0 sm:ml-2">Coaching</a>
+        class="mt-1 block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">Coaching</a>
       <a href="/training"
-        class="mt-1 block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-500 sm:mt-0 sm:ml-2">Training</a>
+        class="mt-1 block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">Training</a>
       <a href="/membership"
-        class="mt-1 block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-500 sm:mt-0 sm:ml-2">Membership</a>
+        class="mt-1 block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">Membership</a>
       <a href="/contact"
-        class="mt-1 block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-500 sm:mt-0 sm:ml-2">Contact</a>
+        class="mt-1 block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">Contact</a>
     </nav>
   </header>
 </template>
