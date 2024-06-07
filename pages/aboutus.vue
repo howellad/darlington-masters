@@ -1,5 +1,6 @@
 <template>
     <div class="about-us">
+        <div class="font-bold text-xl mb-2">About Us</div>
         <p>
             At Darlington Dolphin Masters, we're more than just a swimming club - we're a community united by our love
             for

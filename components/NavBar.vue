@@ -15,15 +15,15 @@
     </div>
     <nav :class="isOpen ? 'block' : 'hidden justify-between'" class="px-2 pt-2 pb-4 sm:flex sm:p-0">
       <a href="/aboutus"
-        class="block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">About Us</a>
+        class="block px-2 py-1 font-normal rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">About Us</a>
       <a href="/coachinfo" 
-        class="mt-1 block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">Coaching</a>
+        class="mt-1 block px-2 py-1 font-normal font-sans rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">Coaching</a>
       <a href="/training"
-        class="mt-1 block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">Training</a>
+        class="mt-1 block px-2 py-1 font-normal rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">Training</a>
       <a href="/membership"
-        class="mt-1 block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">Membership</a>
+        class="mt-1 block px-2 py-1 font-normal rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">Membership</a>
       <a href="/contact"
-        class="mt-1 block px-2 py-1 text-gray font-semibold rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">Contact</a>
+        class="mt-1 block px-2 py-1 font-normal rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">Contact</a>
     </nav>
   </header>
 </template>

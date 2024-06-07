@@ -9,6 +9,16 @@ import NavBar from components
   </div>
 </template>
 
+<script setup lang="ts">
+useHead({
+  title: 'Darlington Masters',
+  meta: [
+    { name: 'description', content: 'Darlington masters swim team' }
+  ],
+})
+</script>
+
+
 <style>
 .body {
   margin: 0 !important;
