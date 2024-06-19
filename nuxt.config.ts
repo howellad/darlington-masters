@@ -5,7 +5,5 @@ export default defineNuxtConfig({
   css: [
     '@fortawesome/fontawesome-free/css/all.css'
   ],
-  modules: [
-    '@nuxtjs/tailwindcss'
-  ]
+  modules: ["vue3-carousel-nuxt", "@nuxt/ui"]
 })
