@@ -14,9 +14,9 @@
       </div>
     </div>
     <nav :class="isOpen ? 'block' : 'hidden justify-between'" class="px-2 pt-2 pb-4 sm:flex sm:p-0">
-      <a href="/aboutus"
+      <a href="/about"
         class="block px-2 py-1 font-normal rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">About Us</a>
-      <a href="/coachinfo" 
+      <a href="/coaching" 
         class="mt-1 block px-2 py-1 font-normal font-sans rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">Coaching</a>
       <a href="/training"
         class="mt-1 block px-2 py-1 font-normal rounded hover:bg-gray-300 sm:mt-0 sm:ml-2">Training</a>
