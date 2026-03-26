@@ -1,31 +1,30 @@
-import NavBar from components
-
 <template>
-  <div class="app-container">
-    <!-- Markup shared across all pages, ex: NavBar -->
-    <AppHeader/>
-    <NavBar/>
-    <NuxtPage />
+  <div class="app-root">
+    <AppHeader />
+    <main>
+      <NuxtPage />
+    </main>
+    <SiteFooter />
   </div>
 </template>
 
 <script setup lang="ts">
 useHead({
-  title: 'Darlington Masters',
+  title: 'Darlington Dolphin Masters ASC',
   meta: [
-    { name: 'description', content: 'Darlington masters swim team' }
+    { name: 'description', content: 'Darlington Dolphin Masters Adult Swimming Club - Fitness, friendship and competition for swimmers aged 18+ in Darlington, County Durham.' }
   ],
 })
 </script>
 
-
 <style>
-.body {
-  margin: 0 !important;
+.app-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-.app-container {
-  margin: 0px !important;
-  width: 100%;
-  font-family: Arial;
+
+main {
+  flex: 1;
 }
 </style>
