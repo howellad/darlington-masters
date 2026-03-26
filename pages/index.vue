@@ -62,7 +62,7 @@
               pleasure of it, you'll find a home among fellow aquatic enthusiasts who share
               your passion for the sport.
             </p>
-            <NuxtLink to="/coachinfo" class="btn btn--teal" style="margin-top: 12px;">
+            <NuxtLink to="/coaching" class="btn btn--teal" style="margin-top: 12px;">
               Meet Our Coaches
             </NuxtLink>
           </div>

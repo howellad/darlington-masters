@@ -40,7 +40,7 @@ const isScrolled = ref(false)
 
 const navLinks = [
   { to: '/', label: 'About' },
-  { to: '/coachinfo', label: 'Coaches' },
+  { to: '/coaching', label: 'Coaches' },
   { to: '/training', label: 'Sessions' },
   { to: '/membership', label: 'Membership' },
   { to: '/contact', label: 'Contact' },

@@ -16,7 +16,7 @@
           <h4>Quick Links</h4>
           <nav class="footer-links">
             <NuxtLink to="/">About</NuxtLink>
-            <NuxtLink to="/coachinfo">Coaches</NuxtLink>
+            <NuxtLink to="/coaching">Coaches</NuxtLink>
             <NuxtLink to="/training">Sessions</NuxtLink>
             <NuxtLink to="/membership">Membership</NuxtLink>
             <NuxtLink to="/contact">Contact</NuxtLink>
