@@ -1,3 +1,15 @@
+<script setup lang="ts">
+useHead({
+  title: 'Contact Us',
+  meta: [
+    { name: 'description', content: 'Get in touch with Darlington Dolphin Masters ASC. Email ddmasc.secretary@gmail.com or find us on Facebook and Instagram. Based at the Dolphin Centre, Darlington.' },
+    { property: 'og:title', content: 'Contact Us | Darlington Dolphin Masters ASC' },
+    { property: 'og:description', content: 'Email ddmasc.secretary@gmail.com or find us on Facebook and Instagram. Dolphin Centre, Darlington.' },
+    { property: 'og:url', content: 'https://www.darlingtondolphinmasters.org/contact' },
+  ],
+})
+</script>
+
 <template>
   <div>
     <!-- Page Hero -->

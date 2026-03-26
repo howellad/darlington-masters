@@ -13,7 +13,7 @@
         </div>
 
         <div class="footer-col">
-          <h4>Quick Links</h4>
+          <p class="footer-heading">Quick Links</p>
           <nav class="footer-links">
             <NuxtLink to="/">About</NuxtLink>
             <NuxtLink to="/coaching">Coaches</NuxtLink>
@@ -24,7 +24,7 @@
         </div>
 
         <div class="footer-col">
-          <h4>Sessions</h4>
+          <p class="footer-heading">Sessions</p>
           <div class="footer-sessions">
             <p><strong>Mon</strong> 7:30 - 8:30pm</p>
             <p><strong>Wed</strong> 6:30 - 7:30am</p>
@@ -36,7 +36,7 @@
         </div>
 
         <div class="footer-col">
-          <h4>Connect</h4>
+          <p class="footer-heading">Connect</p>
           <div class="footer-social">
             <a href="https://www.facebook.com/groups/1674660229229616/" target="_blank" rel="noopener" aria-label="Facebook">
               <i class="fab fa-facebook-f"></i>
@@ -99,7 +99,7 @@
   opacity: 0.7;
 }
 
-.footer-col h4 {
+.footer-heading {
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-size: 0.9rem;
@@ -194,7 +194,7 @@
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
   font-size: 0.8rem;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 @media (max-width: 768px) {

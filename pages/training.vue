@@ -1,3 +1,15 @@
+<script setup lang="ts">
+useHead({
+  title: 'Training Sessions & Schedule',
+  meta: [
+    { name: 'description', content: 'Darlington Dolphin Masters training times: Monday & Thursday 7:30-8:30pm, Wednesday 6:30-7:30am at the Dolphin Centre, Darlington. All abilities welcome, ages 18+.' },
+    { property: 'og:title', content: 'Training Sessions | Darlington Dolphin Masters ASC' },
+    { property: 'og:description', content: 'Three coached sessions per week at the Dolphin Centre. Mon & Thu evenings, Wed mornings. All abilities welcome.' },
+    { property: 'og:url', content: 'https://www.darlingtondolphinmasters.org/training' },
+  ],
+})
+</script>
+
 <template>
   <div>
     <!-- Page Hero -->

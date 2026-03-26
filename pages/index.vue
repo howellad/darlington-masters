@@ -1,3 +1,45 @@
+<script setup lang="ts">
+useHead({
+  title: 'Adult Swimming Club in Darlington',
+  meta: [
+    { name: 'description', content: 'Darlington Dolphin Masters ASC — friendly adult swimming club for all abilities aged 18+. Coached sessions Mon, Wed & Thu at the Dolphin Centre, Darlington. Try a session today.' },
+    { property: 'og:title', content: 'Darlington Dolphin Masters ASC — Adult Swimming Club' },
+    { property: 'og:description', content: 'Friendly adult swimming club for all abilities aged 18+. Coached sessions at the Dolphin Centre, Darlington.' },
+    { property: 'og:url', content: 'https://www.darlingtondolphinmasters.org/' },
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'SportsClub',
+        name: 'Darlington Dolphin Masters ASC',
+        description: 'Adult masters swimming club in Darlington, County Durham for swimmers aged 18 and over of all abilities.',
+        url: 'https://www.darlingtondolphinmasters.org',
+        sport: 'Swimming',
+        email: 'ddmasc.secretary@gmail.com',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: 'Dolphin Centre',
+          addressLocality: 'Darlington',
+          addressRegion: 'County Durham',
+          addressCountry: 'GB',
+        },
+        memberOf: {
+          '@type': 'SportsOrganization',
+          name: 'Swim England',
+          url: 'https://www.swimming.org',
+        },
+        sameAs: [
+          'https://www.facebook.com/groups/1674660229229616/',
+          'https://www.instagram.com/darlington_dolphin_masters_asc',
+        ],
+      }),
+    },
+  ],
+})
+</script>
+
 <template>
   <div>
     <!-- Hero Section -->

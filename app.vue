@@ -10,9 +10,9 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'Darlington Dolphin Masters ASC',
+  titleTemplate: '%s | Darlington Dolphin Masters ASC',
   meta: [
-    { name: 'description', content: 'Darlington Dolphin Masters Adult Swimming Club - Fitness, friendship and competition for swimmers aged 18+ in Darlington, County Durham.' }
+    { name: 'description', content: 'Darlington Dolphin Masters ASC — adult swimming club for ages 18+ in Darlington, County Durham. Coached sessions for fitness and competition at the Dolphin Centre.' }
   ],
 })
 </script>

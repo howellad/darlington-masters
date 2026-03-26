@@ -1,3 +1,15 @@
+<script setup lang="ts">
+useHead({
+  title: 'Our Coaches',
+  meta: [
+    { name: 'description', content: 'Meet Niamh, head coach at Darlington Dolphin Masters ASC. Level 2 qualified swimming coach delivering technically focused sessions for all abilities.' },
+    { property: 'og:title', content: 'Our Coaches | Darlington Dolphin Masters ASC' },
+    { property: 'og:description', content: 'Meet Niamh, our Level 2 qualified head coach delivering quality sessions for all abilities.' },
+    { property: 'og:url', content: 'https://www.darlingtondolphinmasters.org/coaching' },
+  ],
+})
+</script>
+
 <template>
   <div>
     <!-- Page Header -->

@@ -1,3 +1,15 @@
+<script setup lang="ts">
+useHead({
+  title: 'Membership & Pricing',
+  meta: [
+    { name: 'description', content: 'Join Darlington Dolphin Masters ASC — competitive membership from £55, recreational from £40. Swim England affiliated. Try a session before you join.' },
+    { property: 'og:title', content: 'Membership & Pricing | Darlington Dolphin Masters ASC' },
+    { property: 'og:description', content: 'Competitive from £55, recreational from £40. Swim England affiliated. Try a session before joining.' },
+    { property: 'og:url', content: 'https://www.darlingtondolphinmasters.org/membership' },
+  ],
+})
+</script>
+
 <template>
   <div>
     <!-- Page Hero -->
