@@ -8,7 +8,13 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'canonical', href: 'https://www.darlingtondolphinmasters.org' }
+        { rel: 'canonical', href: 'https://www.darlingtondolphinmasters.org' },
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap'
+        }
       ],
       meta: [
         { name: 'theme-color', content: '#0B1D3A' },
@@ -27,12 +33,6 @@ export default defineNuxtConfig({
   ssr: true,
   css: [
     '@fortawesome/fontawesome-free/css/all.css',
-    '@fontsource/inter/400.css',
-    '@fontsource/inter/500.css',
-    '@fontsource/inter/600.css',
-    '@fontsource/montserrat/600.css',
-    '@fontsource/montserrat/700.css',
-    '@fontsource/montserrat/800.css',
     '@/assets/main.css'
   ],
   modules: [
