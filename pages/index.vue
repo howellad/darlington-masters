@@ -109,7 +109,14 @@ useHead({
             </NuxtLink>
           </div>
           <div class="about-image">
-            <img src="@/assets/Team_2.jpeg" alt="DDM Team Photo" />
+            <NuxtImg
+              src="/Team_2.jpeg"
+              alt="Darlington Dolphin Masters team photo"
+              width="800"
+              height="600"
+              loading="lazy"
+              format="webp"
+            />
           </div>
         </div>
       </div>
