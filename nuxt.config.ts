@@ -38,10 +38,5 @@ export default defineNuxtConfig({
   modules: [
     "vue3-carousel-nuxt",
     "@nuxt/ui",
-    "@nuxt/image",
-  ],
-  image: {
-    quality: 80,
-    format: ['webp', 'jpg'],
-  }
+  ]
 })
